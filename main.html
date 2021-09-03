@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="container">
+        <form id="areaform">
+            <p> Enter 100 as width and 100 as height and 6 as No of Rectangles</p>
+          <label for="wid">Width:</label>
+          <input id="wid" type="number">
+          <br><br>
+          <label for="hgt">Height:</label>
+          <input id="hgt" type="number">
+          <br><br>
+          <label for="hgt">No of Rectangles:</label>
+          <input id ="boxSize" type ="number">
+          <br><br>
+          <button onclick="draw()" type="button">Draw Rectangle</button>
+          <br><br>
+        </form>
+      </div>
+      <canvas id="DemoCanvas"></canvas> 
+</body>
+</html>
